@@ -40,12 +40,49 @@ body{
 
 .galeria{
     display: flex;
-    height: 50%;
-    position: relative;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
-.galeria img{
-    position: absolute;
-    width: 25%;
+.galeria img{   
+    width: 50%;
+}
+
+footer {
+    background-color: rgb(32, 180, 180);
+    display: block;
+    padding: 10%;
+}
+
+footer h2{
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+    
+}
+footer ul{
+    display: flex;
+    margin: auto;
+    
+    flex-wrap: wrap;
+}
+footer div{
+    display: flex;
+    margin: auto;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+}
+.contacts img{
+    size: 1px;
+    
 }
