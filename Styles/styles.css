@@ -3,6 +3,7 @@
     width: 100%;
     padding: 0;
     box-sizing: border-box;
+   
             
 }
 body{
@@ -78,8 +79,9 @@ footer div{
 .contacts{
     display: flex;
     flex-direction: row;
+   
     
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .contacts img{
